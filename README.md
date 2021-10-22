@@ -8,10 +8,10 @@ If utilizing my processed version of the data, please cite the original source [
 ## Contents
 
 ### PDF 
-The pdf directory contains copies of the original outage reports. These reports were (unfortunately) published in PDF, but are kept here for posterity. 
+The pdf directory contains copies of the original outage reports. These reports were (unfortunately) published in PDF, but are kept here for posterity. (COMING SOON)
 
 ### Raw Data
-The data directory contains the scraped values from the PDFs in CSV and Rdata formats. It is a lightly processed and machine-readible of the PDF versions above. This file is called 'pdf_scraped_data.csv'. It contains hourly power outage counts for each county in florida during hurricane michael. Not to brag, but this was hard to find and there are a million questions to ask about this. If you want to collaborate on projects related to this dataset in any way email me. Another note, this data **is all public** it's just tough to get to. 
+The data directory contains the scraped values from the PDFs in CSV and Rdata formats. It is a lightly processed and machine-readible of the PDF versions above. This file is called 'pdf_scraped_data.csv'. **It contains hourly power outage counts for each county in florida during hurricane michael.** Not to brag, but this was hard to find and there are a million questions to ask about this; there is so much potential to study resilience with this dataset. If you want to collaborate on projects related to this dataset in any way email me. Another note, this data **is all public** it's just tough to get to. I mention this because most other data of this type is pretty guarded by utiltiies or the poweroutage.us guy. 
 
 ### DATA TO REPLICATE
 File is named all_data_clean.csv. Names are described in the SI of the mansucript, anything with an I after it is a kolms-inequality measure taken for all tracts in a county of that attribute. 
@@ -29,7 +29,7 @@ files compileIndicators.R, buildBestModel.R, and categoryImprovment.R are the sc
 The file which actually computes transformation trajectory is SOM_changes.R 
 
 
-
+### Let's collaborate!!!
 If you have general questions please feel free to reach out. If you have questions about using the data, I can point you in general directions and contribute minimally. If you're interested in using a CCN-related idea to do something cool (particularly with respect to resilience) I'd love love love love to collaborate and am happy to contribute more broadly! 
 
 My life is in constant chaos, try these emails: brachunok@gmail.com, rachunok@stanford.edu, brachuno@purdue.edu, barachun@ncsu.edu or personal website (http://brachunok.com) for better contact info. Twitter also works @rachunok.
