@@ -1,5 +1,5 @@
 # florida-michael-outages
-Data and code for the paper "Quantifying Community Transformation to Resilience Traps" by Rachunok &amp; Nateghi
+Data and code for the paper "Overemphasis on recovery inhibits community transformation and creates resilience traps" by Rachunok &; Nateghi in Nat. Communications 2021
 
 Hurricane Michael outages originaly scraped from [this url](https://maps.floridadisaster.org/outage_reports/michael/). The source was originally used by (Mitsova, 2019)[https://doi.org/10.3390/su11020516] 
 
