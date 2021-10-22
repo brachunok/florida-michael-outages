@@ -17,7 +17,7 @@ The data directory contains the scraped values from the PDFs in CSV and Rdata fo
 File is named all_data_clean.csv. Names are described in the SI of the mansucript, anything with an I after it is a kolms-inequality measure taken for all tracts in a county of that attribute. 
 
 ### Resilience Values
-For each county, we calculate an integrated resilience value (scaled area under a performance curve). These are listed in a CSV here. For descriptions of the calculations, please see the supplemental material of the original paper. It also contains plots of the failure and recovery of two sample counties. 
+For each county, we calculate an integrated resilience value (scaled area under a performance curve). These are listed in the all_data_clean.csv file under the label res1 and are also listed as a big ol table in the SI.  For descriptions of the calculations, please see the supplemental material of the original paper. It also contains plots of the failure and recovery of two sample counties. 
 
 ### Code
 The PDF scraping code is called convert_outage_pdfs.R . It is a combination of R and bash scripts to open, process, and extract the PDF data into easily readible formats. If you utilize this code, please cite the associated manuscript as well. It should also be noted that this is 'research grade' code and comes with no warrenty or guarentees. This isn't an intellectual contribution of the 
